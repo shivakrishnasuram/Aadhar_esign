@@ -74,8 +74,16 @@ const AadhaarEsign = () => {
         <div className="flex flex-col items-center justify-center min-h-screen bg-white p-4 sm:p-6 md:p-8">
             {/* Header Logos */}
             <div className="flex items-center gap-4 mb-6">
-                <img src={aadhaarLogo} alt="Aadhaar Logo" className="h-10 sm:h-12 md:h-16 lg:h-20 object-contain" />
-                <img src={aureumLogo} alt="Aureum Logo" className="h-10 sm:h-12 md:h-16 lg:h-20 object-contain" />
+                <img
+                    src={aadhaarLogo}
+                    alt="Aadhaar Logo"
+                    className="h-12 sm:h-14 md:h-16 lg:h-20 object-contain"
+                />
+                <img
+                    src={aureumLogo}
+                    alt="Aureum Logo"
+                    className="h-12 sm:h-14 md:h-16 lg:h-20 object-contain"
+                />
             </div>
 
             {/* Title */}
